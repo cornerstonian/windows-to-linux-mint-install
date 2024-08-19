@@ -59,21 +59,28 @@ Before starting the installation, back up all important data from the existing W
    - Wait for the installation process to finish. This may take some time.
 
 6. **Restart the Computer:**
-   - Once the installation is complete, the user will be prompted to remove the USB drive and press Enter to restart the laptop.
+   - Once the installation is complete, the user will be prompted to remove the USB drive and reboot the system.
 
 ### Step 5: Post-Installation Setup
 1. **Initial Setup:**
    - After rebooting, the user will be greeted with the Linux Mint login screen. Log in using the credentials created during installation.
 
 2. **Update System:**
-   - Open the Update Manager or run `sudo apt update && sudo apt upgrade` in the terminal to ensure the system is up-to-date.
+   - After logging into Linux Mint, open the terminal and run: run `sudo apt update && sudo apt upgrade` in the terminal to ensure the system is up-to-date.
 
 3. **Install Additional Drivers (if needed):**
    - Open “Driver Manager” to install any necessary drivers for hardware components.
+4. **Install Additional Software:**
+   - Use the Software Manager to install any additional applications you need.
 
-4. **Restore Data:**
+6. **Restore Data:**
    - If data was backed up prior to installation, it can now be restored to the new Linux Mint installation.
 
 ![image](https://github.com/user-attachments/assets/671e9f42-fde0-4491-aadc-d5c54450bfb1)
 ###
 ![image](https://github.com/user-attachments/assets/acef2322-4db7-44e0-9a8a-bc67dff813e3)
+
+### Resources
+
+- **Linux Mint Installation Guide**: [Linux Mint Installation Guide](https://linuxmint-installation-guide.readthedocs.io/en/latest/)
+- **Rufus Bootable USB Guide**: [Rufus Guide](https://rufus.ie/en/)
